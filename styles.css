@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #282c34;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #61dafb;
+    color: #282c34;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#how-it-works, #features {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    max-width: 300px;
+    margin: 20px;
+}
+
+.step img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#features ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+footer {
+    background: #282c34;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
